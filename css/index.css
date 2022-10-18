@@ -1,0 +1,210 @@
+body {
+    background-image: url('../assets/Untitled-3.jpg');
+    background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.logo {
+    padding-top: 30px;
+}
+
+.logo-img {
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+}
+
+.nav-bar {
+    display: inline-block;
+    border: 1px;
+    border-color:#D4A542;
+    border-style: solid;
+    padding: 10px;
+}
+
+.nav-item {
+    margin: 15px;
+    font-family: "Emilys Candy";
+    font-size:calc(12px + 1vw);
+    color: #EC87B4;
+}
+
+.nav-item:hover {
+    color: #f9348d;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+   width: 100%;
+}
+
+.carousel {
+    padding-top: 30px;
+    width: 80%;
+}
+
+.photo {
+    width: 250px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.photo:hover {
+    filter: brightness(.9);
+}
+
+.sub-text {
+    font-family: "Emilys Candy";
+    color: #D4A542;
+    padding-left: 13%;
+    padding-top: 30px;
+}
+
+.col-item {
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.photo-text {
+    font-family: "Emilys Candy";
+    color: #EC87B4;
+    margin-top: 10px;
+    font-size: 25px;
+  
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    position: relative;
+    top: 50%;
+  
+}
+
+.contact-text {
+    font-family: "Emilys Candy";
+    color: #D4A542;
+}
+
+.footer-logo {
+    width: 120px;
+}
+
+.social-icon {
+    margin-right: 15px;
+}
+
+.col-link:hover > h1 {
+    color: #f9348d;
+}
+
+.col-link:hover {
+    text-decoration: none;
+}
+
+.col-xl-6 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.blue-gradiant {
+background: hsla(221, 68%, 52%, 1);
+
+background: linear-gradient(45deg, hsla(221, 68%, 52%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);
+
+background: -moz-linear-gradient(45deg, hsla(221, 68%, 52%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);
+
+background: -webkit-linear-gradient(45deg, hsla(221, 68%, 52%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2F65D8", endColorstr="#C6F8FF", GradientType=1 );
+}
+
+.purple-gradiant {
+background: hsla(321, 100%, 57%, 1);
+
+background: linear-gradient(135deg, hsla(321, 100%, 57%, 1) 0%, hsla(0, 96%, 66%, 1) 49%, hsla(50, 100%, 75%, 1) 100%);
+
+background: -moz-linear-gradient(135deg, hsla(321, 100%, 57%, 1) 0%, hsla(0, 96%, 66%, 1) 49%, hsla(50, 100%, 75%, 1) 100%);
+
+background: -webkit-linear-gradient(135deg, hsla(321, 100%, 57%, 1) 0%, hsla(0, 96%, 66%, 1) 49%, hsla(50, 100%, 75%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF25B3", endColorstr="#FC5757", GradientType=1 );
+}
+
+.red-gradiant {
+background: hsla(0, 100%, 55%, 1);
+
+background: linear-gradient(135deg, hsla(0, 100%, 55%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+background: -moz-linear-gradient(135deg, hsla(0, 100%, 55%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+background: -webkit-linear-gradient(135deg, hsla(0, 100%, 55%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF1A1A", endColorstr="#FFFFFF", GradientType=1 );
+}
+
+.pink-gradiant {
+    background: hsla(309, 100%, 79%, 1);
+
+    background: linear-gradient(135deg, hsla(309, 100%, 79%, 1) 0%, hsla(42, 89%, 71%, 1) 100%);
+    
+    background: -moz-linear-gradient(135deg, hsla(309, 100%, 79%, 1) 0%, hsla(42, 89%, 71%, 1) 100%);
+    
+    background: -webkit-linear-gradient(135deg, hsla(309, 100%, 79%, 1) 0%, hsla(42, 89%, 71%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF92EF", endColorstr="#F7CF72", GradientType=1 );
+}
+
+.work-button:hover > .pink-gradiant {
+    filter: brightness(.8);
+    color: #D4A542;
+}
+
+.work-button:hover > .pink-gradiant > h5 {
+    color: #D4A542;
+}
+
+.work-button > div > h5 {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.work-button:hover {
+    text-decoration: none;
+}
+
+
+.scroll-container{
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px 70px 5px 20px;
+    background: transparent;
+    width: 70%;
+    border-radius:15px;
+    
+  }
+  
+.gridscroll{
+    display:inline-block;
+}
+  
+.gridscroll img {
+    margin-right:22px;
+}
+
+.video-container{
+    width: 70vw;
+    height: 70vh;
+  }
+      
+iframe {
+    width: 70vw;
+    height: 70vh;
+}
